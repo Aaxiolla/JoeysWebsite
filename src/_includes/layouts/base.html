@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li class="drop-down"><a href="/blogNavAll/index.html">Blog</a><ul>
+                <li><a href="/blogNavMain/index.html">Main Blog</a></li>
+                <li><a href="/blogNavMathsNotes/index.html">Mathematics Notes</a></li>
+                <li><a href="/blogNavComputerScienceNotes/index.html">Computer Science Notes</a></li>
+            </ul>
+            </li>
+            <li class="drop-down"><a href="/projects/index.html">Projects</a><ul>
+                <li><a>All</a></li>
+                <li><a>Graph Traversal</a></li>
+                </ul>
+            </li>
+            <li><a>Contact</a></li>
+        </ul>
+    </nav>
+    {{content | safe}}
+</body>
+</html>

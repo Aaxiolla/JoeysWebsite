@@ -1,0 +1,9 @@
+---
+title: "Computer Science Revision Notes"
+layout: "layouts/blogPost.html"
+---
+<div id="nav-panel">
+{%- for post in collections.cSNotes-%}
+{%blogCard title=post.data.title, image=post.data.image, url=post.url, description=post.data.description%}
+{%-endfor-%}
+</div>
